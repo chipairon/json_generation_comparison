@@ -1,0 +1,13 @@
+== README
+
+A sample application to test performance of json generation done with *partial views and jbuilder* vs plain *ruby hashes*.
+
+You can read more here: <link>
+
+=== Notes:
+To leave out database delays that just add noise over the comparison, there is a fake scope on the Review model to create fake the response.
+I have included the initial migrations I used, in case anyone finds them useful.
+
+This code does NOT have tests or comments as it is not ment to be iterated/maintained over time. It is just to prove the point and let others try their approach.
+
+
